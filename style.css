@@ -7,10 +7,17 @@ body {
 }
 
 header {
-    background: #7b4bb7;
+    background-image: url('images/20260527_112434.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+
     color: white;
     text-align: center;
-    padding: 60px 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section {
