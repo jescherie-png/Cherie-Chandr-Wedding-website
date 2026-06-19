@@ -129,3 +129,11 @@ nav a {
     color: white;
     margin-top: 15px;
 }
+#faq h3 {
+    color: #6f42c1;
+    margin-top: 25px;
+}
+
+#faq p {
+    margin-bottom: 20px;
+}
