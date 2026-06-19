@@ -57,13 +57,13 @@ function setLanguage(language) {
     if(language === "af") {
 
     document.getElementById("welcome-title").innerHTML =
-        "Welkom by ons trouwebwerf.";
+        "Welkom by ons trouwebtuiste.";
 
     document.getElementById("welcome-text").innerHTML =
-        "Ons is opgewonde om hierdie besondere dag saam met ons familie en vriende te vier.";
+        "Ons sien daarna uit om hierdie besondere dag saam met ons familie en vriende te vier.";
 
     document.getElementById("story-title").innerHTML =
-        "Ons Storie ❤︎";
+        "Ons Verhaal ❤︎";
 
     document.getElementById("venue-title").innerHTML =
         "Venue";
@@ -72,7 +72,7 @@ function setLanguage(language) {
         "Belangrike Inligting";
 
     document.getElementById("accommodation-title").innerHTML =
-        "Akkommodasie";
+        "Verblyf";
 
     document.getElementById("gifts-title").innerHTML =
         "Geskenke";
@@ -81,8 +81,27 @@ function setLanguage(language) {
         "Gereelde Vrae";
 
     document.getElementById("photos-title").innerHTML =
-        "Troue Fotos";
+    "Troufoto’s";
 
-    }
+    document.getElementById("nav-welcome").innerHTML =
+        "Welkom";
 
+    document.getElementById("nav-story").innerHTML =
+        "Ons Verhaal";
+
+    document.getElementById("nav-venue").innerHTML =
+        "Venue";
+
+    document.getElementById("nav-details").innerHTML =
+        "Inligting";
+
+    document.getElementById("nav-accommodation").innerHTML =
+        "Verblyf";
+
+    document.getElementById("nav-faq").innerHTML =
+        "Vrae";
+
+    document.getElementById("nav-rsvp").innerHTML =
+        "RSVP";
+}
 }
