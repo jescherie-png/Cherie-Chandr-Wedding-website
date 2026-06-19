@@ -299,50 +299,7 @@
 
 <script src="countdown.js"></script>
 <script src="language.js"></script>
-<script>
-
-document.getElementById("rsvp-form").addEventListener("submit", function(e) {
-
-    e.preventDefault();
-
-    fetch("https://script.google.com/macros/s/AKfycbyQ8-MbzDusCXunSahG2dAVEZwJmMwHtvnGFtz8xcdlAvwxlERgBPy-0L7gnzGMLfYKSQ/exec", {
-
-        method: "POST",
-
-        body: JSON.stringify({
-
-            name: document.getElementById("name").value,
-
-            attendance: document.getElementById("attendance").value,
-
-            adults: document.getElementById("adults").value,
-
-            children: document.getElementById("children").value
-
-        })
-
-    })
-
-    .then(response => response.json())
-
-    .then(data => {
-
-        document.getElementById("rsvp-message").innerHTML =
-        "💜 Dankie! Jou RSVP is ontvang.";
-
-        document.getElementById("rsvp-form").reset();
-
-    })
-
-    .catch(error => {
-
-        document.getElementById("rsvp-message").innerHTML =
-        "❌ Daar was 'n fout. Probeer asseblief weer.";
-
-    });
-
-});
-
+    
 </script>
 </body>
 </html>
