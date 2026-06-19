@@ -230,35 +230,41 @@
         Bevestig asseblief voor 15 Maart 2027.
     </p>
 
-    <form>
+   <form id="rsvp-form">
 
-        <input
-            type="text"
-            placeholder="Voornaam of Van">
+    <input
+        type="text"
+        id="name"
+        placeholder="Voornaam of Van"
+        required>
 
-        <select>
-            <option>
-                Sal bywoon
-            </option>
+    <select id="attendance">
 
-            <option>
-                Sal nie bywoon nie
-            </option>
-        </select>
+        <option value="Sal bywoon">
+            Sal bywoon
+        </option>
 
-        <input
-            type="number"
-            placeholder="Aantal volwassenes">
+        <option value="Sal nie bywoon nie">
+            Sal nie bywoon nie
+        </option>
 
-        <input
-            type="number"
-            placeholder="Aantal kinders">
+    </select>
 
-        <button type="submit">
-            Dien RSVP In
-        </button>
+    <input
+        type="number"
+        id="adults"
+        placeholder="Aantal volwassenes">
 
-    </form>
+    <input
+        type="number"
+        id="children"
+        placeholder="Aantal kinders">
+
+    <button type="submit">
+        Dien RSVP In
+    </button>
+
+</form>
 </section>
     <section id="photos">
 
@@ -284,6 +290,50 @@
 
 <script src="countdown.js"></script>
 <script src="language.js"></script>
+<script>
 
+document.getElementById("rsvp-form").addEventListener("submit", function(e) {
+
+    e.preventDefault();
+
+    fetch("https://script.google.com/macros/s/AKfycbyQ8-MbzDusCXunSahG2dAVEZwJmMwHtvnGFtz8xcdlAvwxlERgBPy-0L7gnzGMLfYKSQ/exec", {
+
+        method: "POST",
+
+        body: JSON.stringify({
+
+            name: document.getElementById("name").value,
+
+            attendance: document.getElementById("attendance").value,
+
+            adults: document.getElementById("adults").value,
+
+            children: document.getElementById("children").value
+
+        })
+
+    })
+
+    .then(response => response.json())
+
+    .then(data => {
+
+        document.getElementById("rsvp-message").innerHTML =
+        "💜 Dankie! Jou RSVP is ontvang.";
+
+        document.getElementById("rsvp-form").reset();
+
+    })
+
+    .catch(error => {
+
+        document.getElementById("rsvp-message").innerHTML =
+        "❌ Daar was 'n fout. Probeer asseblief weer.";
+
+    });
+
+});
+
+</script>
 </body>
 </html>
