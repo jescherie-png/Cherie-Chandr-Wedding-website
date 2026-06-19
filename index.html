@@ -222,7 +222,7 @@
 
 </section>
     
-    <section id="rsvp">
+<section id="rsvp">
 
     <h2 id="rsvp-title">RSVP</h2>
 
@@ -230,42 +230,50 @@
         Bevestig asseblief voor 15 Maart 2027.
     </p>
 
-   <form id="rsvp-form">
+    <form
+        action="https://script.google.com/macros/s/AKfycbyQ8-MbzDusCXunSahG2dAVEZwJmMwHtvnGFtz8xcdlAvwxlERgBPy-0L7gnzGMLfYKSQ/exec"
+        method="POST"
+        target="hidden_iframe">
 
-    <input
-        type="text"
-        id="name"
-        placeholder="Voornaam of Van"
-        required>
+        <input
+            type="text"
+            name="name"
+            placeholder="Voornaam en Van"
+            required>
 
-    <select id="attendance">
+        <select name="attendance">
 
-        <option value="Sal bywoon">
-            Sal bywoon
-        </option>
+            <option value="Sal bywoon">
+                Sal bywoon
+            </option>
 
-        <option value="Sal nie bywoon nie">
-            Sal nie bywoon nie
-        </option>
+            <option value="Sal nie bywoon nie">
+                Sal nie bywoon nie
+            </option>
 
-    </select>
+        </select>
 
-    <input
-        type="number"
-        id="adults"
-        placeholder="Aantal volwassenes">
+        <input
+            type="number"
+            name="adults"
+            placeholder="Aantal volwassenes">
 
-    <input
-        type="number"
-        id="children"
-        placeholder="Aantal kinders">
+        <input
+            type="number"
+            name="children"
+            placeholder="Aantal kinders">
 
-    <button type="submit">
-        Dien RSVP In
-    </button>
+        <button type="submit">
+            Dien RSVP In
+        </button>
 
-</form>
-    <p id="rsvp-message"></p>
+    </form>
+
+    <iframe
+        name="hidden_iframe"
+        style="display:none;">
+    </iframe>
+
 </section>
     <section id="photos">
 
