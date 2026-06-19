@@ -10,7 +10,7 @@ header {
     background-image: url('images/20260527_112434.jpg');
     background-size: cover;
     background-position: center;
-    min-height: 500px;
+    min-height: 100vh;
 
     color: white;
     text-align: center;
@@ -34,7 +34,7 @@ footer {
 }
 
 header div {
-    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,0.55);
     padding: 20px;
     border-radius: 15px;
 }
