@@ -152,3 +152,32 @@ nav a {
     font-size: 1.1rem;
     line-height: 1.8;
 }
+#rsvp form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#rsvp input,
+#rsvp select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+    box-sizing: border-box;
+}
+
+#rsvp button {
+    width: 100%;
+    padding: 12px;
+
+    background: #7b4bb7;
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 1rem;
+}
