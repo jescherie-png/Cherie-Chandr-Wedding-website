@@ -130,23 +130,26 @@ document.getElementById("story-p6").innerHTML =
     document.getElementById("welcome-intro").innerHTML =
     "Welkom";
 
-    document.getElementById("story-p1").innerHTML =
+    document.getElementById("story-caption").innerHTML =
+    "Die plek waar ons vir altyd begin het. 💜";
+
+document.getElementById("story-p1").innerHTML =
     "Soms skryf God stories op maniere wat ons nooit sou verwag nie.";
 
 document.getElementById("story-p2").innerHTML =
-    "Ons het mekaar onder baie ongewone omstandighede ontmoet...";
+    "Ons het mekaar onder baie ongewone omstandighede ontmoet. Wat begin het as 'n eenvoudige koppie koffie het gegroei tot 'n vriendskap, vertroue en uiteindelik liefde.";
 
 document.getElementById("story-p3").innerHTML =
     "Nie een van ons het gedink daardie ontmoeting sou die begin wees van iets baie groter nie.";
 
 document.getElementById("story-p4").innerHTML =
-    "Een aand, nadat hy vir my kos gemaak het...";
+    "Een aand, nadat hy vir my kos gemaak het, het hy my in sy kombuis gesoen. Op daardie oomblik het ek geweet daar is iets besonders tussen ons.";
 
 document.getElementById("story-p5").innerHTML =
-    "Toe die tyd aanbreek om die groot vraag te vra...";
+    "Toe die tyd aanbreek om die groot vraag te vra, het Chandré die mooiste verrassing beplan. Op dieselfde dansvloer waar ons, as man en vrou, ons eerste dans sal deel, het hy my gevra om met hom te trou.";
 
 document.getElementById("story-p6").innerHTML =
-    "Daarna het hy 'n pragtige piekniek gereël...";
+    "Daarna het hy 'n pragtige piekniek gereël waar ons saam as verloofde paartjie kon feesvier. Dit bly een van die kosbaarste oomblikke van my lewe.";
     
 }
 }
