@@ -107,3 +107,19 @@ nav a {
     color: #6f42c1;
     margin-bottom: 25px;
 }
+.venue-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+
+    background: #6f42c1;
+    color: white;
+
+    text-decoration: none;
+    border-radius: 30px;
+}
