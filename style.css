@@ -30,6 +30,7 @@ section {
     border-radius: 20px;
 
     box-shadow: 0 4px 15px rgba(111, 66, 193, 0.12);
+    border-top: 5px solid #c8a2ff;
 }
 
 footer {
