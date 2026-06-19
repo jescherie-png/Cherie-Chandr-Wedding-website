@@ -21,11 +21,15 @@ header {
 }
 
 section {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+
     background: white;
-    border-radius: 10px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 4px 15px rgba(111, 66, 193, 0.12);
 }
 
 footer {
