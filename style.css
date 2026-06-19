@@ -63,3 +63,13 @@ h2 {
     text-align: center;
     margin-bottom: 20px;
 }
+section p {
+    text-align: center;
+}
+#rsvp {
+    background: linear-gradient(
+        135deg,
+        #ffffff,
+        #f5eeff
+    );
+}
