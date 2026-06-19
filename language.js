@@ -33,11 +33,32 @@ function setLanguage(language) {
 
     if(language === "af") {
 
-        document.getElementById("welcome-title").innerHTML =
-            "Welkom by ons trouwebwerf.";
+    document.getElementById("welcome-title").innerHTML =
+        "Welkom by ons trouwebwerf.";
 
-        document.getElementById("welcome-text").innerHTML =
-            "Ons is opgewonde om hierdie besondere dag saam met ons familie en vriende te vier.";
+    document.getElementById("welcome-text").innerHTML =
+        "Ons is opgewonde om hierdie besondere dag saam met ons familie en vriende te vier.";
+
+    document.getElementById("story-title").innerHTML =
+        "Ons Storie ❤︎";
+
+    document.getElementById("venue-title").innerHTML =
+        "Venue";
+
+    document.getElementById("details-title").innerHTML =
+        "Belangrike Inligting";
+
+    document.getElementById("accommodation-title").innerHTML =
+        "Akkommodasie";
+
+    document.getElementById("gifts-title").innerHTML =
+        "Geskenke";
+
+    document.getElementById("faq-title").innerHTML =
+        "Gereelde Vrae";
+
+    document.getElementById("photos-title").innerHTML =
+        "Troue Fotos";
 
     }
 
