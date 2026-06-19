@@ -101,3 +101,9 @@ nav a {
 
     box-shadow: 0 6px 20px rgba(0,0,0,0.15);
 }
+.caption {
+    font-style: italic;
+    text-align: center;
+    color: #6f42c1;
+    margin-bottom: 25px;
+}
