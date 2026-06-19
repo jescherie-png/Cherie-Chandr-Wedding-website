@@ -1,10 +1,14 @@
 [
   {
     "firstName": "Cherie",
-    "surname": "Celliers"
+    "surname": "Celliers",
+    "adults": 1,
+    "children": 0
   },
   {
     "firstName": "Chandre",
-    "surname": "Van Wyk"
+    "surname": "Van Wyk",
+    "adults": 1,
+    "children": 0
   }
 ]
