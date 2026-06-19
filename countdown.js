@@ -1,6 +1,20 @@
-#countdown {
-    font-size: 1.3rem;
-    font-weight: bold;
-    color: white;
-    margin-top: 15px;
-}
+const weddingDate = new Date("June 5, 2027 14:00:00").getTime();
+
+const countdown = setInterval(function() {
+
+    const now = new Date().getTime();
+
+    const distance = weddingDate - now;
+
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+
+    document.getElementById("countdown").innerHTML =
+        "💜 " + days + " days until our wedding";
+
+    if (distance < 0) {
+        clearInterval(countdown);
+        document.getElementById("countdown").innerHTML =
+            "💍 We're Married!";
+    }
+
+}, 1000);
