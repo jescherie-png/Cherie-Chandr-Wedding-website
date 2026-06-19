@@ -2,34 +2,57 @@ function setLanguage(language) {
 
     if(language === "en") {
 
-    document.getElementById("welcome-title").innerHTML =
-        "Welcome to our wedding website.";
+        document.getElementById("welcome-title").innerHTML =
+            "Welcome to our wedding website.";
 
-    document.getElementById("welcome-text").innerHTML =
-        "We are excited to celebrate this special day with our family and friends.";
+        document.getElementById("welcome-text").innerHTML =
+            "We are excited to celebrate this special day with our family and friends.";
 
-    document.getElementById("story-title").innerHTML =
-        "Our Story ❤︎";
+        document.getElementById("story-title").innerHTML =
+            "Our Story ❤︎";
 
-    document.getElementById("venue-title").innerHTML =
-        "Venue";
+        document.getElementById("venue-title").innerHTML =
+            "Venue";
 
-    document.getElementById("details-title").innerHTML =
-        "Important Information";
+        document.getElementById("details-title").innerHTML =
+            "Important Information";
 
-    document.getElementById("accommodation-title").innerHTML =
-        "Accommodation";
+        document.getElementById("accommodation-title").innerHTML =
+            "Accommodation";
 
-    document.getElementById("gifts-title").innerHTML =
-        "Gifts";
+        document.getElementById("gifts-title").innerHTML =
+            "Gifts";
 
-    document.getElementById("faq-title").innerHTML =
-        "Frequently Asked Questions";
+        document.getElementById("faq-title").innerHTML =
+            "Frequently Asked Questions";
 
-    document.getElementById("photos-title").innerHTML =
-        "Wedding Photos";
+        document.getElementById("photos-title").innerHTML =
+            "Wedding Photos";
 
-    }
+        document.getElementById("nav-welcome").innerHTML =
+            "Welcome";
+
+        document.getElementById("nav-story").innerHTML =
+            "Our Story";
+
+        document.getElementById("nav-venue").innerHTML =
+            "Venue";
+
+        document.getElementById("nav-details").innerHTML =
+            "Information";
+
+        document.getElementById("nav-accommodation").innerHTML =
+            "Accommodation";
+
+        document.getElementById("nav-faq").innerHTML =
+            "FAQ";
+
+        document.getElementById("nav-rsvp").innerHTML =
+    "RSVP";
+
+    }  // closes if
+
+}      // closes function
 
     if(language === "af") {
 
