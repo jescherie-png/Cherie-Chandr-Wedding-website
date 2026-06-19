@@ -51,6 +51,23 @@ function setLanguage(language) {
     "RSVP";
         document.getElementById("welcome-intro").innerHTML =
     "Welcome";
+document.getElementById("story-p1").innerHTML =
+    "Sometimes God writes stories in ways we would never expect.";
+
+document.getElementById("story-p2").innerHTML =
+    "We met under very unusual circumstances...";
+
+document.getElementById("story-p3").innerHTML =
+    "Neither of us imagined that meeting would become the beginning of something much greater.";
+
+document.getElementById("story-p4").innerHTML =
+    "One evening, after he cooked dinner for me...";
+
+document.getElementById("story-p5").innerHTML =
+    "When the time came to ask the big question...";
+
+document.getElementById("story-p6").innerHTML =
+    "Afterwards he arranged a beautiful picnic...";
 
     }  // closes if
 
@@ -108,5 +125,24 @@ function setLanguage(language) {
         
     document.getElementById("welcome-intro").innerHTML =
     "Welkom";
+
+    document.getElementById("story-p1").innerHTML =
+    "Soms skryf God stories op maniere wat ons nooit sou verwag nie.";
+
+document.getElementById("story-p2").innerHTML =
+    "Ons het mekaar onder baie ongewone omstandighede ontmoet...";
+
+document.getElementById("story-p3").innerHTML =
+    "Nie een van ons het gedink daardie ontmoeting sou die begin wees van iets baie groter nie.";
+
+document.getElementById("story-p4").innerHTML =
+    "Een aand, nadat hy vir my kos gemaak het...";
+
+document.getElementById("story-p5").innerHTML =
+    "Toe die tyd aanbreek om die groot vraag te vra...";
+
+document.getElementById("story-p6").innerHTML =
+    "Daarna het hy 'n pragtige piekniek gereël...";
+    
 }
 }
