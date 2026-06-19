@@ -51,23 +51,27 @@ function setLanguage(language) {
     "RSVP";
         document.getElementById("welcome-intro").innerHTML =
     "Welcome";
+        
+document.getElementById("story-caption").innerHTML =
+    "The place where our forever began. 💜";
+
 document.getElementById("story-p1").innerHTML =
     "Sometimes God writes stories in ways we would never expect.";
 
 document.getElementById("story-p2").innerHTML =
-    "We met under very unusual circumstances...";
+    "We met under very unusual circumstances. What started as a simple cup of coffee grew into friendship, trust and eventually love.";
 
 document.getElementById("story-p3").innerHTML =
-    "Neither of us imagined that meeting would become the beginning of something much greater.";
+    "Neither of us imagined that meeting would become the beginning of something much bigger.";
 
 document.getElementById("story-p4").innerHTML =
-    "One evening, after he cooked dinner for me...";
+    "One evening, after he cooked for me, he kissed me in his kitchen. In that moment, I knew there was something special between us.";
 
 document.getElementById("story-p5").innerHTML =
-    "When the time came to ask the big question...";
+    "When the time came to ask the big question, Chandré planned the most beautiful surprise. On the very dance floor where we will share our first dance as husband and wife, he asked me to marry him.";
 
 document.getElementById("story-p6").innerHTML =
-    "Afterwards he arranged a beautiful picnic...";
+    "Afterwards, he arranged a beautiful picnic where we could celebrate together as an engaged couple. It remains one of the most precious moments of my life.";
 
     }  // closes if
 
