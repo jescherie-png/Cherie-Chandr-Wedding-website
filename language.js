@@ -49,6 +49,8 @@ function setLanguage(language) {
 
         document.getElementById("nav-rsvp").innerHTML =
     "RSVP";
+        document.getElementById("welcome-intro").innerHTML =
+    "Welcome";
 
     }  // closes if
 
@@ -103,5 +105,8 @@ function setLanguage(language) {
 
     document.getElementById("nav-rsvp").innerHTML =
         "RSVP";
+        
+    document.getElementById("welcome-intro").innerHTML =
+    "Welkom";
 }
 }
