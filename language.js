@@ -73,81 +73,99 @@ function setLanguage(language) {
 
         document.getElementById("story-p6").innerHTML =
     "Afterwards, he arranged a beautiful picnic where we could celebrate together as an engaged couple. It remains one of the most precious moments of my life.";
+        
+        document.getElementById("info-checkin").innerHTML =
+    "Check-in from 13h00";
 
+        document.getElementById("info-arrival").innerHTML =
+    "Guests arrive from 13h30";
+
+        document.getElementById("info-ceremony").innerHTML =
+    "Ceremony begins at 14h00";
+
+        document.getElementById("info-food").innerHTML =
+    "No outside food or drinks permitted";
+
+        document.getElementById("info-accommodation").innerHTML =
+    "Accommodation available";
+
+        document.getElementById("info-deposit").innerHTML =
+    "Bookings are confirmed with a 50% deposit";
     }
     
     if(language === "af") {
         
-    document.getElementById("tagline").innerHTML =
+
+        document.getElementById("tagline").innerHTML =
     "Saam is die pragtigste plek om te wees.";
         
-    document.getElementById("welcome-title").innerHTML =
+        document.getElementById("welcome-title").innerHTML =
         "Welkom by ons trouwebtuiste.";
 
-    document.getElementById("welcome-text").innerHTML =
+        document.getElementById("welcome-text").innerHTML =
         "Ons sien daarna uit om hierdie besondere dag saam met ons familie en vriende te vier.";
 
-    document.getElementById("story-title").innerHTML =
+        document.getElementById("story-title").innerHTML =
         "Ons Verhaal ❤︎";
 
-    document.getElementById("venue-title").innerHTML =
+        document.getElementById("venue-title").innerHTML =
         "Venue";
 
-    document.getElementById("details-title").innerHTML =
+        document.getElementById("details-title").innerHTML =
         "Belangrike Inligting";
 
-    document.getElementById("accommodation-title").innerHTML =
+        document.getElementById("accommodation-title").innerHTML =
         "Verblyf";
 
-    document.getElementById("gifts-title").innerHTML =
+        document.getElementById("gifts-title").innerHTML =
         "Geskenke";
 
-    document.getElementById("faq-title").innerHTML =
+        document.getElementById("faq-title").innerHTML =
         "Gereelde Vrae";
 
-    document.getElementById("photos-title").innerHTML =
+        document.getElementById("photos-title").innerHTML =
     "Troufoto’s";
 
-    document.getElementById("nav-welcome").innerHTML =
+        document.getElementById("nav-welcome").innerHTML =
         "Welkom";
 
-    document.getElementById("nav-story").innerHTML =
+        document.getElementById("nav-story").innerHTML =
         "Ons Verhaal";
 
-    document.getElementById("nav-venue").innerHTML =
+        document.getElementById("nav-venue").innerHTML =
         "Venue";
 
-    document.getElementById("nav-details").innerHTML =
+        document.getElementById("nav-details").innerHTML =
         "Inligting";
 
-    document.getElementById("nav-accommodation").innerHTML =
+        document.getElementById("nav-accommodation").innerHTML =
         "Verblyf";
 
-    document.getElementById("nav-faq").innerHTML =
+        document.getElementById("nav-faq").innerHTML =
         "Vrae";
 
-    document.getElementById("nav-rsvp").innerHTML =
+        document.getElementById("nav-rsvp").innerHTML =
         "RSVP";
 
-    document.getElementById("story-caption").innerHTML =
+        document.getElementById("story-caption").innerHTML =
     "Die plek waar ons vir altyd begin het. 💜";
 
-    document.getElementById("story-p1").innerHTML =
+        document.getElementById("story-p1").innerHTML =
     "Soms skryf God stories op maniere wat ons nooit sou verwag nie.";
 
-    document.getElementById("story-p2").innerHTML =
+        document.getElementById("story-p2").innerHTML =
     "Ons het mekaar onder baie ongewone omstandighede ontmoet. Wat begin het as 'n eenvoudige koppie koffie het gegroei tot 'n vriendskap, vertroue en uiteindelik liefde.";
 
-    document.getElementById("story-p3").innerHTML =
+        document.getElementById("story-p3").innerHTML =
     "Nie een van ons het gedink daardie ontmoeting sou die begin wees van iets baie groter nie.";
 
-    document.getElementById("story-p4").innerHTML =
+        document.getElementById("story-p4").innerHTML =
     "Een aand, nadat hy vir my kos gemaak het, het hy my in sy kombuis gesoen. Op daardie oomblik het ek geweet daar is iets besonders tussen ons.";
 
-    document.getElementById("story-p5").innerHTML =
+        document.getElementById("story-p5").innerHTML =
     "Toe die tyd aanbreek om die groot vraag te vra, het Chandré die mooiste verrassing beplan. Op dieselfde dansvloer waar ons, as man en vrou, ons eerste dans sal deel, het hy my gevra om met hom te trou.";
 
-    document.getElementById("story-p6").innerHTML =
+        document.getElementById("story-p6").innerHTML =
     "Daarna het hy 'n pragtige piekniek gereël waar ons saam as verloofde paartjie kon feesvier. Dit bly een van die kosbaarste oomblikke van my lewe.";
     
 }
