@@ -65,7 +65,9 @@ function setLanguage(language) {
     "Neither of us imagined that meeting would become the beginning of something much bigger.";
 
         document.getElementById("story-p4").innerHTML =
-    "One evening, after he cooked for me, he kissed me in his kitchen. In that moment, I knew there was something special between us.";document.getElementById("story-p5").innerHTML =
+    "One evening, after he cooked for me, he kissed me in his kitchen. In that moment, I knew there was something special between us.";
+        
+        document.getElementById("story-p5").innerHTML =
     "When the time came to ask the big question, Chandré planned the most beautiful surprise. On the very dance floor where we will share our first dance as husband and wife, he asked me to marry him.";
 
         document.getElementById("story-p6").innerHTML =
