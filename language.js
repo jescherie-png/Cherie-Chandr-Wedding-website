@@ -2,6 +2,9 @@ function setLanguage(language) {
 
     if(language === "en") {
 
+        document.getElementById("tagline").innerHTML =
+    "Together is the most beautiful place to be.";
+        
         document.getElementById("welcome-title").innerHTML =
             "Welcome to our wedding website.";
 
@@ -74,7 +77,10 @@ function setLanguage(language) {
     }
     
     if(language === "af") {
-
+        
+    document.getElementById("tagline").innerHTML =
+    "Saam is die pragtigste plek om te wees.";
+        
     document.getElementById("welcome-title").innerHTML =
         "Welkom by ons trouwebtuiste.";
 
