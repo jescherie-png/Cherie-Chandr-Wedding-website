@@ -49,8 +49,6 @@ function setLanguage(language) {
 
         document.getElementById("nav-rsvp").innerHTML =
     "RSVP";
-        document.getElementById("welcome-intro").innerHTML =
-    "Welcome";
         
         document.getElementById("story-caption").innerHTML =
     "The place where our forever began. 💜";
@@ -124,9 +122,6 @@ function setLanguage(language) {
 
     document.getElementById("nav-rsvp").innerHTML =
         "RSVP";
-        
-    document.getElementById("welcome-intro").innerHTML =
-    "Welkom";
 
     document.getElementById("story-caption").innerHTML =
     "Die plek waar ons vir altyd begin het. 💜";
