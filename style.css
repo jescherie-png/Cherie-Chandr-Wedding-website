@@ -273,46 +273,11 @@ section p {
     margin-right: auto;
 }
 
-    section::before,
-section::after {
-    content: "";
-
-    position: absolute;
-
-    width: 80px;
-    height: 80px;
-
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-section::before {
-    top: 10px;
-    left: 10px;
-    background-image: url("images/silver-corner.png");
-}
-
-section::after {
-    bottom: 10px;
-    right: 10px;
-    background-image: url("images/silver-corner.png");
-}
-    section {
+section {
     overflow: hidden;
 }
 
-section .watercolor {
-    position: absolute;
-    inset: 0;
-
-    background:
-        url("images/purple-watercolor.png")
-        center center / cover no-repeat;
-
-    opacity: 0.12;
-
-    pointer-events: none;
-}h1,
+h1,
 h2 {
     color: #7c5aa8;
 }
@@ -321,6 +286,7 @@ h2 {
     font-family: 'Great Vibes', cursive;
     font-size: 3rem;
 }
+
 button,
 .button {
     background: #7c5aa8;
@@ -336,7 +302,4 @@ button,
 button:hover,
 .button:hover {
     background: #6a4797;
-}
-
-    
-    
+}    
