@@ -209,5 +209,17 @@ function setLanguage(language) {
 
         document.getElementById("dresscode-note").innerHTML =
     "Ons vra vriendelik dat gaste nie wit, rooi of pers dra nie, aangesien hierdie kleure vir die bruid, bruidegom, bruidsparty en ouers gereserveer is.";
+        
+        document.getElementById("gifts-title").innerHTML =
+    "Geskenke";
+
+        document.getElementById("gifts-p1").innerHTML =
+    "Julle liefde, ondersteuning en teenwoordigheid op ons spesiale dag is die grootste geskenk wat ons kan ontvang.";
+
+        document.getElementById("gifts-p2").innerHTML =
+    "Ons is reeds geseën met die meeste van die benodigdhede vir ons huis, maar indien julle ons graag met 'n geskenk wil seën, sal 'n bydrae tot ons toekoms saam opreg waardeer word.";
+
+        document.getElementById("gifts-p3").innerHTML =
+    "'n Aangewese geskenkhouer sal by die onthaal beskikbaar wees vir kaartjies en koeverte.";
 }
 }
