@@ -75,7 +75,7 @@ function setLanguage(language) {
     "Afterwards, he arranged a beautiful picnic where we could celebrate together as an engaged couple. It remains one of the most precious moments of my life.";
         
         document.getElementById("info-checkin").innerHTML =
-    "Check-in from 13h00";
+    "Accommodation check-in from 13h00";
 
         document.getElementById("info-arrival").innerHTML =
     "Guests arrive from 13h30";
