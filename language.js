@@ -454,9 +454,13 @@ function setLanguage(language) {
 
 document.getElementById("rsvp-form").addEventListener("submit", function() {
 
+    document.getElementById("rsvp-success").style.display = "none";
+
     setTimeout(function() {
 
         document.getElementById("rsvp-success").style.display = "block";
+
+        document.getElementById("rsvp-form").reset();
 
     }, 1500);
 
