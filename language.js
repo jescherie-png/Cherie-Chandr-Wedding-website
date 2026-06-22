@@ -465,3 +465,13 @@ document.getElementById("rsvp-form").addEventListener("submit", function() {
     }, 1500);
 
 });
+const rsvpDeadline = new Date("2027-03-15T23:59:59");
+
+if (new Date() > rsvpDeadline) {
+
+    document.getElementById("rsvp-form").style.display = "none";
+
+    document.getElementById("rsvp-text").innerHTML =
+        "RSVPs are now closed.";
+
+}
