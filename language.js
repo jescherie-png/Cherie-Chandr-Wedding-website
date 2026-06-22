@@ -100,6 +100,9 @@ function setLanguage(language) {
         
         document.getElementById("dresscode-note").innerHTML =
     "We kindly ask guests not to wear white, red, or purple, as these colours are reserved for the bridal party and our parents.";
+
+        document.getElementById("dresscode-note").innerHTML =
+    "We kindly ask guests not to wear white, red, or purple, as these colours are reserved for the bride, groom, bridal party, and parents.";
     }
     
     if(language === "af") {
@@ -203,5 +206,8 @@ function setLanguage(language) {
         
         document.getElementById("dresscode-note").innerHTML =
     "Ons vra vriendelik dat gaste nie wit, rooi of pers dra nie, aangesien hierdie kleure vir die bruidsparty en ons ouers gereserveer is.";
+
+        document.getElementById("dresscode-note").innerHTML =
+    "Ons vra vriendelik dat gaste nie wit, rooi of pers dra nie, aangesien hierdie kleure vir die bruid, bruidegom, bruidsparty en ouers gereserveer is.";
 }
 }
