@@ -1,6 +1,7 @@
 function setLanguage(language) {
 
     if(language === "en") {
+        document.title = "Cherie & Chandré's Wedding";
 
         document.getElementById("tagline").innerHTML =
     "Together is the most beautiful place to be.";
