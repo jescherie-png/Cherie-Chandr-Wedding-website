@@ -167,6 +167,39 @@ function setLanguage(language) {
 
         document.getElementById("accommodation-li4").innerHTML =
     "Accommodation is subject to availability.";
+        
+        document.getElementById("faq-title").innerHTML =
+    "Frequently Asked Questions";
+
+        document.getElementById("faq-q1").innerHTML =
+    "May I bring my children?";
+
+        document.getElementById("faq-a1").innerHTML =
+    "Yes, children are welcome to celebrate this special day with us.";
+
+        document.getElementById("faq-q2").innerHTML =
+    "May I bring my own food or drinks?";
+
+        document.getElementById("faq-a2").innerHTML =
+    "No. Kuungana Bush Lodge does not allow outside food or beverages.";
+
+        document.getElementById("faq-q3").innerHTML =
+    "Is accommodation available?";
+
+        document.getElementById("faq-a3").innerHTML =
+    "Yes. Accommodation can be booked directly through Kuungana Bush Lodge.";
+
+        document.getElementById("faq-q4").innerHTML =
+    "When do I need to RSVP?";
+
+        document.getElementById("faq-a4").innerHTML =
+    "RSVPs close on 15 March 2027.";
+
+        document.getElementById("faq-q5").innerHTML =
+    "What time does the ceremony begin?";
+
+        document.getElementById("faq-a5").innerHTML =
+    "The ceremony begins at 14h00. Guests are kindly requested to arrive from 13h30.";
     }
     
     if(language === "af") {
