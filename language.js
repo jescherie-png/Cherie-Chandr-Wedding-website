@@ -445,3 +445,13 @@ function setLanguage(language) {
     "Die seremonie begin om 14h00. Gaste word vriendelik versoek om vanaf 13h30 te arriveer.";
 }
 }
+
+document.getElementById("rsvp-form").addEventListener("submit", function() {
+
+    setTimeout(function() {
+
+        document.getElementById("rsvp-success").style.display = "block";
+
+    }, 1500);
+
+});
