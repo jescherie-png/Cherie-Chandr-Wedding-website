@@ -91,6 +91,15 @@ function setLanguage(language) {
 
         document.getElementById("info-deposit").innerHTML =
     "Bookings are confirmed with a 50% deposit";
+        
+        document.getElementById("dresscode-title").innerHTML =
+    "Dress Code";
+        
+        document.getElementById("dresscode-type").innerHTML =
+    "Semi-Formal";
+        
+        document.getElementById("dresscode-note").innerHTML =
+    "We kindly ask guests not to wear white, red, or purple, as these colours are reserved for the bridal party and our parents.";
     }
     
     if(language === "af") {
