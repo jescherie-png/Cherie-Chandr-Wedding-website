@@ -167,6 +167,23 @@ function setLanguage(language) {
 
         document.getElementById("story-p6").innerHTML =
     "Daarna het hy 'n pragtige piekniek gereël waar ons saam as verloofde paartjie kon feesvier. Dit bly een van die kosbaarste oomblikke van my lewe.";
-    
+        
+        document.getElementById("info-checkin").innerHTML =
+    "Akkommodasie inklok vanaf 13h00";
+
+        document.getElementById("info-arrival").innerHTML =
+    "Gaste arriveer vanaf 13h30";
+
+        document.getElementById("info-ceremony").innerHTML =
+    "Seremonie begin om 14h00";
+
+        document.getElementById("info-food").innerHTML =
+    "Geen eie kos of drank toegelaat nie";
+
+        document.getElementById("info-accommodation").innerHTML =
+    "Akkommodasie beskikbaar";
+
+        document.getElementById("info-deposit").innerHTML =
+    "Besprekings word bevestig met 'n 50% deposito";
 }
 }
