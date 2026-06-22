@@ -103,6 +103,18 @@ function setLanguage(language) {
 
         document.getElementById("dresscode-note").innerHTML =
     "We kindly ask guests not to wear white, red, or purple, as these colours are reserved for the bride, groom, bridal party, and parents.";
+        
+        document.getElementById("gifts-title").innerHTML =
+    "Gifts";
+
+        document.getElementById("gifts-p1").innerHTML =
+    "Your love, support, and presence on our special day are the greatest gifts we could receive.";
+
+        document.getElementById("gifts-p2").innerHTML =
+    "We have already been blessed with most of the necessities for our home, but if you would like to bless us with a gift, a cash contribution towards our future together would be sincerely appreciated.";
+
+        document.getElementById("gifts-p3").innerHTML =
+    "A designated gift box will be available at the reception for cards and envelopes.";
     }
     
     if(language === "af") {
