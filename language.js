@@ -194,5 +194,14 @@ function setLanguage(language) {
 
         document.getElementById("info-deposit").innerHTML =
     "Besprekings word bevestig met 'n 50% deposito";
+        
+        document.getElementById("dresscode-title").innerHTML =
+    "Kleredrag";
+        
+        document.getElementById("dresscode-type").innerHTML =
+    "Semi-formeel";
+        
+        document.getElementById("dresscode-note").innerHTML =
+    "Ons vra vriendelik dat gaste nie wit, rooi of pers dra nie, aangesien hierdie kleure vir die bruidsparty en ons ouers gereserveer is.";
 }
 }
