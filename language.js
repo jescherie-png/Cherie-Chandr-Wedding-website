@@ -115,6 +115,29 @@ function setLanguage(language) {
 
         document.getElementById("gifts-p3").innerHTML =
     "A designated gift box will be available at the reception for cards and envelopes.";
+        document.getElementById("rsvp-title").innerHTML =
+    "RSVP";
+
+        document.getElementById("rsvp-text").innerHTML =
+    "Please respond before 15 March 2027.";
+
+        document.getElementById("rsvp-name").placeholder =
+    "First Name and Surname";
+
+        document.getElementById("attend-yes").innerHTML =
+    "Will Attend";
+        
+        document.getElementById("attend-no").innerHTML =
+    "Will Not Attend";
+
+        document.getElementById("rsvp-adults").placeholder =
+    "Number of Adults";
+
+        document.getElementById("rsvp-children").placeholder =
+    "Number of Children";
+
+        document.getElementById("rsvp-button").innerHTML =
+    "Submit RSVP";
     }
     
     if(language === "af") {
@@ -266,5 +289,31 @@ function setLanguage(language) {
 
         document.getElementById("faq-a5").innerHTML =
     "Die seremonie begin om 14h00. Gaste word vriendelik versoek om vanaf 13h30 te arriveer.";
+        document.getElementById("rsvp-title").innerHTML =
+    "RSVP";
+
+        document.getElementById("rsvp-title").innerHTML =
+    "RSVP";
+
+        document.getElementById("rsvp-text").innerHTML =
+    "Bevestig asseblief voor 15 Maart 2027.";
+
+        document.getElementById("rsvp-name").placeholder =
+    "Voornaam en Van";
+
+        document.getElementById("attend-yes").innerHTML =
+    "Sal bywoon";
+
+        document.getElementById("attend-no").innerHTML =
+    "Sal nie bywoon nie";
+
+        document.getElementById("rsvp-adults").placeholder =
+    "Aantal volwassenes";
+        
+        document.getElementById("rsvp-children").placeholder =
+    "Aantal kinders";
+
+        document.getElementById("rsvp-button").innerHTML =
+    "Dien RSVP In";
 }
 }
