@@ -407,5 +407,38 @@ function setLanguage(language) {
 
         document.getElementById("accommodation-li4").innerHTML =
     "Akkommodasie is onderhewig aan beskikbaarheid.";
+
+        document.getElementById("faq-title").innerHTML =
+    "Gereelde Vrae";
+
+        document.getElementById("faq-q1").innerHTML =
+    "Mag ek my kinders saambring?";
+
+        document.getElementById("faq-a1").innerHTML =
+    "Ja, kinders is welkom om hierdie spesiale dag saam met ons te vier.";
+
+        document.getElementById("faq-q2").innerHTML =
+    "Mag ek my eie kos of drank saambring?";
+
+        document.getElementById("faq-a2").innerHTML =
+    "Nee. Kuungana Bush Lodge laat geen eie kos of drank toe nie.";
+
+        document.getElementById("faq-q3").innerHTML =
+    "Is daar akkommodasie beskikbaar?";
+
+        document.getElementById("faq-a3").innerHTML =
+    "Ja. Akkommodasie kan direk by Kuungana Bush Lodge bespreek word.";
+
+        document.getElementById("faq-q4").innerHTML =
+    "Wanneer moet ek RSVP?";
+
+        document.getElementById("faq-a4").innerHTML =
+    "RSVP's sluit op 15 Maart 2027.";
+        
+        document.getElementById("faq-q5").innerHTML =
+    "Hoe laat begin die seremonie?";
+
+        document.getElementById("faq-a5").innerHTML =
+    "Die seremonie begin om 14h00. Gaste word vriendelik versoek om vanaf 13h30 te arriveer.";
 }
 }
