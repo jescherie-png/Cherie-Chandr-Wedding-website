@@ -203,6 +203,9 @@ function setLanguage(language) {
 
         document.getElementById("faq-a5").innerHTML =
     "The ceremony begins at 14h00. Guests are kindly requested to arrive from 13h30.";
+
+        document.getElementById("rsvp-success").innerHTML =
+    "RSVP submitted successfully!";
     }
     
     if(language === "af") {
@@ -443,6 +446,9 @@ function setLanguage(language) {
 
         document.getElementById("faq-a5").innerHTML =
     "Die seremonie begin om 14h00. Gaste word vriendelik versoek om vanaf 13h30 te arriveer.";
+
+        document.getElementById("rsvp-success").innerHTML =
+    "Dankie! Jou RSVP is suksesvol ingedien.";
 }
 }
 
