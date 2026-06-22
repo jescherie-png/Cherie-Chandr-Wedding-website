@@ -206,6 +206,9 @@ function setLanguage(language) {
 
         document.getElementById("rsvp-success").innerHTML =
     "RSVP submitted successfully!";
+
+        document.getElementById("rsvp-closed").innerHTML =
+    "RSVPs are now closed.";
     }
     
     if(language === "af") {
@@ -449,6 +452,9 @@ function setLanguage(language) {
 
         document.getElementById("rsvp-success").innerHTML =
     "Dankie! Jou RSVP is suksesvol ingedien.";
+
+        document.getElementById("rsvp-closed").innerHTML =
+    "RSVP's is nou gesluit.";
 }
 }
 
