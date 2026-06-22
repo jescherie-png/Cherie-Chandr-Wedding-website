@@ -151,6 +151,22 @@ function setLanguage(language) {
         
         document.getElementById("footer-text").innerHTML =
     "With love, Cherie & Chandré";
+
+        document.getElementById("accommodation-p1").innerHTML =
+    "Accommodation is available at Kuungana Bush Lodge.";document.getElementById("accommodation-p2").innerHTML =
+    "Bookings:";
+
+        document.getElementById("accommodation-li1").innerHTML =
+    "Rooms are only confirmed upon receipt of a 50% deposit.";
+
+        document.getElementById("accommodation-li2").innerHTML =
+    "Check-in from 13h00.";
+
+        document.getElementById("accommodation-li3").innerHTML =
+    "No outside food or beverages are permitted.";
+
+        document.getElementById("accommodation-li4").innerHTML =
+    "Accommodation is subject to availability.";
     }
     
     if(language === "af") {
@@ -341,5 +357,22 @@ function setLanguage(language) {
         
         document.getElementById("footer-text").innerHTML =
     "Met liefde, Cherie & Chandré";
+        document.getElementById("accommodation-p1").innerHTML =
+    "Akkommodasie is beskikbaar by Kuungana Bush Lodge.";
+
+        document.getElementById("accommodation-p2").innerHTML =
+    "Besprekings:";
+
+        document.getElementById("accommodation-li1").innerHTML =
+    "Kamers word slegs bevestig met 'n 50% deposito.";
+
+        document.getElementById("accommodation-li2").innerHTML =
+    "Inklok vanaf 13h00.";
+
+        document.getElementById("accommodation-li3").innerHTML =
+    "Geen eie kos of drank word toegelaat nie.";
+
+        document.getElementById("accommodation-li4").innerHTML =
+    "Akkommodasie is onderhewig aan beskikbaarheid.";
 }
 }
