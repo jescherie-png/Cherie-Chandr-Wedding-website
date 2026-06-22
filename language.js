@@ -327,5 +327,17 @@ function setLanguage(language) {
 
         document.getElementById("rsvp-button").innerHTML =
     "Dien RSVP In";
+
+        document.getElementById("photos-title").innerHTML =
+    "Troue Fotos";
+
+        document.getElementById("photos-p1").innerHTML =
+    "Ons sal graag die spesiale oomblikke deur julle oë wil sien.";
+
+        document.getElementById("photos-p2").innerHTML =
+    "Skandeer die QR-kode hieronder om julle foto's na die troue op te laai.";
+        
+        document.getElementById("footer-text").innerHTML =
+    "Met liefde, Cherie & Chandré";
 }
 }
