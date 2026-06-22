@@ -215,5 +215,11 @@ section::before {
     background-size: contain;
     background-repeat: no-repeat;
 }
+h2::after {
+    content: "♡";
+    display: block;
+    color: #c9a44c;
+    margin-top: 10px;
+    }
     }
 }
