@@ -4,6 +4,19 @@ body {
     padding: 0;
     background: #f5f0ff;
     color: #333;
+
+    font-family: 'Cormorant Garamond', serif;
+    background:
+        linear-gradient(
+            rgba(255,255,255,0.85),
+            rgba(255,255,255,0.85)
+        ),
+        url("images/wood-background.jpg");
+
+    background-size: cover;
+    background-attachment: fixed;
+    color: #4d4d4d;
+    }
 }
 
 header {
