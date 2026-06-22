@@ -471,7 +471,11 @@ if (new Date() > rsvpDeadline) {
 
     document.getElementById("rsvp-form").style.display = "none";
 
-    document.getElementById("rsvp-text").innerHTML =
-        "RSVPs are now closed.";
+    document.getElementById("rsvp-closed").style.display = "block";
+
+    document.getElementById("rsvp-closed").innerHTML =
+        "RSVP's is nou gesluit.";
+
+}
 
 }
