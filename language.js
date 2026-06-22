@@ -3,6 +3,9 @@ function setLanguage(language) {
     if(language === "en") {
         document.title = "Cherie & Chandré's Wedding";
 
+        document.getElementById("wedding-date").innerHTML =
+    "05 June 2027";
+        
         document.getElementById("tagline").innerHTML =
     "Together is the most beautiful place to be.";
         
