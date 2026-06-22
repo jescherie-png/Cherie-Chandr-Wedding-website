@@ -268,3 +268,29 @@ section::after {
     right: 10px;
     background-image: url("images/silver-corner.png");
 }
+
+section::before,
+section::after {
+    content: "";
+
+    position: absolute;
+
+    width: 80px;
+    height: 80px;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+section::before {
+    top: 10px;
+    left: 10px;
+    background-image: url("images/silver-corner.png");
+}
+
+section::after {
+    bottom: 10px;
+    right: 10px;
+    background-image: url("images/silver-corner.png");
+}
+    
