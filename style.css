@@ -203,6 +203,17 @@ nav a {
     background: #6a3fa0;
     color: white;
 }
-    
+
+section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: 180px;
+    background-image: url("images/floral-corner.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
     }
 }
