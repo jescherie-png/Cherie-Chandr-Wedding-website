@@ -48,9 +48,7 @@ body {
     pointer-events: none;
     z-index: 0;
 }
-    }
-}
-
+    
 header {
     background-image: url('images/20260527_112434.jpg');
     background-size: cover;
