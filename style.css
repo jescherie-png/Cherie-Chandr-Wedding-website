@@ -186,17 +186,23 @@ section {
     margin: 40px auto;
     padding: 40px;
     max-width: 1000px;
+    
+h1 {
+    font-family: 'Great Vibes', cursive;
+    }
+
 h2 {
     color: #5b2c83;
-}
-
+    }
+    
 nav a {
     color: #6a3fa0;
-}
+    }
 
 .button {
     background: #6a3fa0;
     color: white;
 }
+    
     }
 }
