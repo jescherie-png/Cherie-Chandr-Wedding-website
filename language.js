@@ -138,6 +138,18 @@ function setLanguage(language) {
 
         document.getElementById("rsvp-button").innerHTML =
     "Submit RSVP";
+
+        document.getElementById("photos-title").innerHTML =
+    "Wedding Photos";
+
+        document.getElementById("photos-p1").innerHTML =
+    "We would love to see the special moments captured through your eyes.";
+
+        document.getElementById("photos-p2").innerHTML =
+    "Scan the QR code below to upload your photos after the wedding.";
+        
+        document.getElementById("footer-text").innerHTML =
+    "With love, Cherie & Chandré";
     }
     
     if(language === "af") {
