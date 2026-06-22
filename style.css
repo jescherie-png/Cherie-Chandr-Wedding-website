@@ -16,9 +16,6 @@ body {
     background-size: cover;
     background-attachment: fixed;
     color: #4d4d4d;
-    
-    <div class="left-floral"></div>
-<div class="right-floral"></div>
 
     .left-floral {
     position: fixed;
