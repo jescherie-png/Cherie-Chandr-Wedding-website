@@ -227,7 +227,7 @@
 
     <h2 id="rsvp-title">RSVP</h2>
 
-    <p>
+    <p id="rsvp-text">
         Bevestig asseblief voor 15 Maart 2027.
     </p>
 
@@ -238,17 +238,18 @@
 
         <input
             type="text"
+            id="rsvp-name"
             name="name"
             placeholder="Voornaam en Van"
             required>
 
-        <select name="attendance">
+        <select id="rsvp-attendance" name="attendance">
 
-            <option value="Sal bywoon">
+            <option id="attend-yes" value="Sal bywoon">
                 Sal bywoon
             </option>
 
-            <option value="Sal nie bywoon nie">
+            <option id="attend-no" value="Sal nie bywoon nie">
                 Sal nie bywoon nie
             </option>
 
@@ -256,15 +257,17 @@
 
         <input
             type="number"
+            id="rsvp-adults"
             name="adults"
             placeholder="Aantal volwassenes">
 
         <input
             type="number"
+            id="rsvp-children"
             name="children"
             placeholder="Aantal kinders">
 
-        <button type="submit">
+        <button id="rsvp-button" type="submit">
             Dien RSVP In
         </button>
 
