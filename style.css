@@ -224,3 +224,11 @@ section p {
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
+
+#faq p,
+#faq h3 {
+    text-align: left;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
