@@ -34,18 +34,21 @@ header {
 }
 
 section {
+section {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 50px;
+
+    background: rgba(255,255,255,0.92);
+
+    border: 2px solid #cfcfcf;
+
+    border-radius: 20px;
+
     position: relative;
 
-    max-width: 900px;
-    margin: 30px auto;
-    padding: 40px;
-
-    background: #f6f0fb;
-
-    border-radius: 25px;
-
-    box-shadow: 0 4px 15px rgba(111, 66, 193, 0.12);
-    border-top: 5px solid #c8a2ff;
+    box-shadow:
+        0 8px 25px rgba(0,0,0,0.08);
 }
 
 footer {
