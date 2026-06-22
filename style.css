@@ -297,21 +297,6 @@ section::after {
     right: 10px;
     background-image: url("images/silver-corner.png");
 }
-
-section::after {
-    content: "";
-    position: absolute;
-
-    bottom: 0;
-    right: 0;
-
-    width: 120px;
-    height: 120px;
-
-    background-image: url("images/silver-corner.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
     section {
     overflow: hidden;
 }
