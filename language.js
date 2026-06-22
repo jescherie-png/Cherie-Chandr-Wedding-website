@@ -155,7 +155,8 @@ function setLanguage(language) {
     
     if(language === "af") {
         
-
+        document.title = "Cherie & Chandré se Troue";
+        
         document.getElementById("tagline").innerHTML =
     "Saam is die pragtigste plek om te wees.";
         
