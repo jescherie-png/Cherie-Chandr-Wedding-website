@@ -46,6 +46,8 @@ body {
         url("images/Flowers right.png")
         right top repeat-y;
 
+    background-size: contain;
+    
     pointer-events: none;
     z-index: 0;
 }
