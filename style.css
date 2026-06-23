@@ -322,7 +322,7 @@ button:hover,
     height: 100%;
 
     background:
-        url("images/images/Flowers left.png")
+        url("images/Flowers left.png")
         left top repeat-y;
 
     background-size: contain;
@@ -340,7 +340,7 @@ button:hover,
     height: 100%;
 
     background:
-        url("images/images/Flowers right.png")
+        url("images/Flowers right.png")
         right top repeat-y;
 
     background-size: contain;
