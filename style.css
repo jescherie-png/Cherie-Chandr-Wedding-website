@@ -252,6 +252,16 @@ nav a {
     color: white;
 }
 
+section {
+    position: relative;
+    overflow: hidden;
+}
+
+section > * {
+    position: relative;
+    z-index: 1;
+}
+
 section::before {
     content: "";
     position: absolute;
@@ -259,10 +269,12 @@ section::before {
     left: 0;
     width: 180px;
     height: 180px;
+
     background-image: url("images/Silver edges.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 section::after {
     content: "";
     position: absolute;
