@@ -27,7 +27,7 @@ body {
     height: 100%;
 
     background:
-        url("images/floral-left.png")
+        url("images/Flowers left.png")
         left top repeat-y;
 
     pointer-events: none;
@@ -43,7 +43,7 @@ body {
     height: 100%;
 
     background:
-        url("images/floral-right.png")
+        url("images/Flowers right.pngedges.png")
         right top repeat-y;
 
     pointer-events: none;
@@ -259,7 +259,7 @@ section::before {
     left: 0;
     width: 180px;
     height: 180px;
-    background-image: url("images/floral-corner.png");
+    background-image: url("images/Silver edges.pngbackground.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -322,7 +322,7 @@ button:hover,
     height: 100%;
 
     background:
-        url("images/floral-left.png")
+        url("images/images/Flowers left.png")
         left top repeat-y;
 
     background-size: contain;
@@ -340,7 +340,7 @@ button:hover,
     height: 100%;
 
     background:
-        url("images/floral-right.png")
+        url("images/images/Flowers right.png")
         right top repeat-y;
 
     background-size: contain;
