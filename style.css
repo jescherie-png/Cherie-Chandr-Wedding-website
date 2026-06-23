@@ -49,6 +49,14 @@ body {
     pointer-events: none;
     z-index: 0;
 }
+
+    header,
+nav,
+section,
+footer {
+    position: relative;
+    z-index: 1;
+}
     
 header {
     background-image: url('images/20260527_112434.jpg');
