@@ -339,3 +339,10 @@ button:hover,
     pointer-events: none;
     z-index: 0;
 }
+    header,
+nav,
+section,
+footer {
+    position: relative;
+    z-index: 1;
+}
