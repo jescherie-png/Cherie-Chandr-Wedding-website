@@ -262,22 +262,6 @@ section > * {
     z-index: 1;
 }
 
-section::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 180px;
-    height: 180px;
-
-    background-image: url("images/Silver edges.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    
-z-index: 2;
-pointer-events: none;
-}
-
 section::after {
     content: "";
     position: absolute;
