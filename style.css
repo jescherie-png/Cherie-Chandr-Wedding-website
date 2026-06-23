@@ -263,6 +263,21 @@ section::before {
     background-size: contain;
     background-repeat: no-repeat;
 }
+section::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background-image: url("images/Purple watercolour .png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    opacity: 0.08;
+
+    pointer-events: none;
+    z-index: 0;
+}
 h2::after {
     content: "♡";
     display: block;
