@@ -52,10 +52,6 @@ body {
     z-index: 0;
 }
 section {
-    border: 1px solid rgba(180,180,180,0.4);
-    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
-}
-section {
     position: relative;
     overflow: hidden;
     border: 1px solid rgba(180,180,180,0.4);
