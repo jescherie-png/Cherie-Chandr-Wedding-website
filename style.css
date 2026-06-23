@@ -273,6 +273,9 @@ section::before {
     background-image: url("images/Silver edges.png");
     background-size: contain;
     background-repeat: no-repeat;
+    
+z-index: 2;
+pointer-events: none;
 }
 
 section::after {
