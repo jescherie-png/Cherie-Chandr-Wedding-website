@@ -291,7 +291,7 @@ button:hover,
 
     #countdown {
     margin-top: 40px;
-    transform: translateY(40px);
+    transform: translateY(100px);
 }
 
     header,
