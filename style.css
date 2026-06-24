@@ -80,6 +80,7 @@ header h1 {
     margin-bottom: 10px;
     font-family: 'Great Vibes', cursive;
     color: #b89adf;
+    text-shadow: 0 2px 8px rgba(255,255,255,0.5);
 }
 
 header p {
