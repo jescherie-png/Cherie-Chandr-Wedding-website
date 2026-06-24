@@ -283,10 +283,22 @@ button:hover,
     background: #6a4797;
 }    
     
+@media (max-width: 768px) {
+
+    header div {
+        transform: translateY(-80px);
+    }
+
+    #countdown {
+        margin-top: 40px;
+    }
+
     header,
-nav,
-section,
-footer {
-    position: relative;
-    z-index: 1;
+    nav,
+    section,
+    footer {
+        position: relative;
+        z-index: 1;
+    }
+
 }
