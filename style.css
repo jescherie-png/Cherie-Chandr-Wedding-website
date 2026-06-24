@@ -259,7 +259,7 @@ section::after {
 h2::after {
     content: "♡";
     display: block;
-    color: #c9a44c;
+    color: #d8d8d8;
     margin-top: 10px;
     }
 section p {
@@ -301,42 +301,7 @@ button:hover,
 .button:hover {
     background: #6a4797;
 }    
-
-.left-floral {
-    position: fixed;
-    left: 0;
-    top: 0;
-
-    width: 250px;
-    height: 100%;
-
-    background:
-        url("images/Flowers left.png")
-        left top repeat-y;
-
-    background-size: contain;
-
-    pointer-events: none;
-    z-index: 0;
-}
-
-.right-floral {
-    position: fixed;
-    right: 0;
-    top: 0;
-
-    width: 250px;
-    height: 100%;
-
-    background:
-        url("images/Flowers right.png")
-        right top repeat-y;
-
-    background-size: contain;
-
-    pointer-events: none;
-    z-index: 0;
-}
+    
     header,
 nav,
 section,
