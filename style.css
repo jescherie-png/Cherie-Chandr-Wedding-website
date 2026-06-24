@@ -286,12 +286,12 @@ button:hover,
 @media (max-width: 768px) {
 
     header h1 {
-        transform: translateY(-80px);
+        transform: translateY(-75px);
     }
 
     #countdown {
     margin-top: 40px;
-    transform: translateY(120px);
+    transform: translateY(80px);
 }
 
     header,
