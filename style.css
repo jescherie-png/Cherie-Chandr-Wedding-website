@@ -5,18 +5,24 @@ body {
     background: #f5f0ff;
     color: #333;
 
+    body {
     font-family: 'Cormorant Garamond', serif;
+    margin: 0;
+    padding: 0;
+
     background:
         linear-gradient(
-            rgba(255,255,255,0.85),
-            rgba(255,255,255,0.85)
+            rgba(255,255,255,0.75),
+            rgba(255,255,255,0.75)
         ),
-        url("images/wood background.png");
+        url("images/Daisy watercolour.png");
 
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
+
     color: #4d4d4d;
-}
+    }
 
     .left-floral {
     position: fixed;
