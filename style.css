@@ -302,6 +302,22 @@ button:hover,
     background: #6a4797;
 }    
     
+    section::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background-image: url("images/Daisy watercolour.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    opacity: 0.5;
+
+    pointer-events: none;
+    z-index: 0;
+    }
+    
     header,
 nav,
 section,
