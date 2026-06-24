@@ -5,21 +5,15 @@ body {
     background: #f5f0ff;
     color: #333;
 
-    body {
     font-family: 'Cormorant Garamond', serif;
     margin: 0;
     padding: 0;
 
-    background:
-        linear-gradient(
-            rgba(255,255,255,0.75),
-            rgba(255,255,255,0.75)
-        ),
-        url("images/Daisy watercolour.png");
-
+    background-image: url("images/Daisy watercolour.png");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 
     color: #4d4d4d;
     }
@@ -239,22 +233,6 @@ section {
 section > * {
     position: relative;
     z-index: 1;
-}
-
-section::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-
-    background-image: url("images/Purple watercolour .png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    opacity: 0.08;
-
-    pointer-events: none;
-    z-index: 0;
 }
 h2::after {
     content: "♡";
