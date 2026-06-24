@@ -290,8 +290,9 @@ button:hover,
     }
 
     #countdown {
-        margin-top: 40px;
-    }
+    margin-top: 40px;
+    transform: translateY(40px);
+}
 
     header,
     nav,
