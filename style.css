@@ -52,14 +52,12 @@ section {
     margin: 60px auto;
     padding: 50px;
 
-    background: rgba(255,255,255,0.88);
+    background: rgba(255,255,255,0.92);
 
-    border-radius: 25px;
+    border-radius: 20px;
 
     box-shadow:
         0 8px 25px rgba(0,0,0,0.08);
-
-    position: relative;
 }
 
 footer {
