@@ -289,10 +289,14 @@ button:hover,
         transform: translateY(-60px);
     }
 
+    header p {
+        transform: translateY(-40px);
+    }
+
     #countdown {
-    margin-top: 20px;
-    transform: translateY(80px);
-}
+        margin-top: 20px;
+        transform: translateY(80px);
+    }
 
     header,
     nav,
@@ -301,5 +305,4 @@ button:hover,
         position: relative;
         z-index: 1;
     }
-
 }
