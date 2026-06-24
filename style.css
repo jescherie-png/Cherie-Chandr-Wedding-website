@@ -78,7 +78,7 @@ header div {
 }
 
 header h1 {
-    font-size: 5rem;
+    font-size: 3rem;
     margin-bottom: 10px;
     font-family: 'Great Vibes', cursive;
     color: #e8e8e8;
@@ -291,7 +291,7 @@ button:hover,
 
     #countdown {
     margin-top: 40px;
-    transform: translateY(100px);
+    transform: translateY(120px);
 }
 
     header,
