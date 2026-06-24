@@ -73,6 +73,8 @@ header div {
     background: rgba(0,0,0,0.35);
     padding: 20px;
     border-radius: 15px;
+
+    transform: translateY(-80px);
 }
 
 header h1 {
