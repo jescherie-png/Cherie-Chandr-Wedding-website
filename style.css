@@ -286,45 +286,35 @@ button:hover,
     
 @media (max-width: 768px) {
 
-    header {
-        background-position: center top;
-    }
-
     header h1 {
         transform: translateY(-60px);
-    
+    }
+
+    #wedding-date {
+        transform: translateY(-35px);
+        font-size: 1.2rem;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.8);
     }
 
     #countdown {
-        margin-top: 30px;
-        padding: 15px;
-        background: rgba(0, 0, 0, 0.45);
-        backdrop-filter: blur(6px);
-        -webkit-backdrop-filter: blur(6px);
-        border-radius: 20px;
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    header blockquote,
-    .quote {
         margin-top: 20px;
         padding: 15px;
-        background: rgba(0, 0, 0, 0.45);
+        background: rgba(0,0,0,0.45);
         backdrop-filter: blur(6px);
         -webkit-backdrop-filter: blur(6px);
-        border-radius: 20px;
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
+        border-radius: 18px;
     }
 
-    header,
-    nav,
-    section,
-    footer {
-        position: relative;
-        z-index: 1;
+    #tagline {
+        margin-top: 20px;
+        padding: 15px;
+        background: rgba(0,0,0,0.45);
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
+        border-radius: 18px;
+    }
+
+    header {
+        background-position: center top;
     }
 }
