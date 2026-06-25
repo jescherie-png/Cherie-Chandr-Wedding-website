@@ -292,10 +292,7 @@ button:hover,
 
     header h1 {
         transform: translateY(-60px);
-    }
-
-    header p {
-        transform: translateY(-60px);
+    
     }
 
     #countdown {
