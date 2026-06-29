@@ -512,5 +512,16 @@ searchInput.addEventListener("input", function () {
         resultsBox.style.display = "none";
         return;
     }
+    const matches = guestList.filter(guest =>
+    guest.firstName.toLowerCase().includes(search) ||
+    guest.surname.toLowerCase().includes(search)
+);
+
+if (matches.length === 0) {
+    resultsBox.style.display = "none";
+    return;
+}
+
+resultsBox.style.display = "block";
 
 });
