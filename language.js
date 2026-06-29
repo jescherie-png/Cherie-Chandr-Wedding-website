@@ -23,28 +23,126 @@ const guestList = [
         surname: "Richter",
         familyGroup: "Richter",
         mainContact: false
-    }
-   {
-    id: 4,
-    firstName: "Petro",
-    surname: "Jansen van Noordwyk",
-    familyGroup: "Jansen van Noordwyk",
-    mainContact: true
-},
-{
-    id: 5,
-    firstName: "Benja",
-    surname: "Jansen van Noordwyk",
-    familyGroup: "Jansen van Noordwyk",
-    mainContact: false
-},
-{
-    id: 6,
-    firstName: "Elziné",
-    surname: "Jansen van Noordwyk",
-    familyGroup: "Jansen van Noordwyk",
-    mainContact: false
-},
+    },
+    {
+        id: 4,
+        firstName: "Petro",
+        surname: "Jansen van Noordwyk",
+        familyGroup: "Jansen van Noordwyk",
+        mainContact: true
+    },
+    {
+        id: 5,
+        firstName: "Benja",
+        surname: "Jansen van Noordwyk",
+        familyGroup: "Jansen van Noordwyk",
+        mainContact: false
+    },
+    {
+        id: 6,
+        firstName: "Elziné",
+        surname: "Jansen van Noordwyk",
+        familyGroup: "Jansen van Noordwyk",
+        mainContact: true
+    },
+    {
+        id: 7,
+        firstName: "Wors",
+        surname: "Smith",
+        familyGroup: "Jansen van Noordwyk",
+        mainContact: false
+    },
+    {
+        id: 8,
+        firstName: "Tyron",
+        surname: "Jansen van Noordwyk",
+        familyGroup: "Jansen van Noordwyk",
+        mainContact: true
+    },
+    {
+        id: 9,
+        firstName: "Danielle",
+        surname: "Havenga",
+        familyGroup: "Jansen van Noordwyk",
+        mainContact: false
+    },
+    {
+        id: 10,
+        firstName: "Chantell",
+        surname: "Strydom",
+        familyGroup: "Strydom",
+        mainContact: true
+    },
+    {
+        id: 11,
+        firstName: "Nickie",
+        surname: "Strydom",
+        familyGroup: "Strydom",
+        mainContact: false
+    },
+    {
+        id: 12,
+        firstName: "Cherise",
+        surname: "Nel",
+        familyGroup: "Nel",
+        mainContact: true
+    },
+    {
+        id: 13,
+        firstName: "Eduan",
+        surname: "Venter",
+        familyGroup: "Nel",
+        mainContact: false
+    },
+    {
+        id: 14,
+        firstName: "Cherise bf",
+        surname: "",
+        familyGroup: "Nel",
+        mainContact: false
+    },
+    {
+        id: 15,
+        firstName: "Anne",
+        surname: "Alberts",
+        familyGroup: "Alberts",
+        mainContact: true
+    },
+    {
+        id: 16,
+        firstName: "Chris",
+        surname: "Alberts",
+        familyGroup: "Alberts",
+        mainContact: false
+    },
+    {
+        id: 17,
+        firstName: "Christine",
+        surname: "Alberts",
+        familyGroup: "Alberts",
+        mainContact: false
+    },
+    {
+        id: 18,
+        firstName: "Daniel",
+        surname: "Mills",
+        familyGroup: "Mills",
+        mainContact: true
+    },
+    {
+        id: 19,
+        firstName: "Bronwen",
+        surname: "Mills",
+        familyGroup: "Mills",
+        mainContact: false
+    },
+    {
+        id: 20,
+        firstName: "Lesley",
+        surname: "Mills",
+        familyGroup: "Mills",
+        mainContact: false
+    },
 
     // Continue adding guests here...
 ];
