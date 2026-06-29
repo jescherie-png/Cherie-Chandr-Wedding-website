@@ -24,6 +24,27 @@ const guestList = [
         familyGroup: "Richter",
         mainContact: false
     }
+   {
+    id: 4,
+    firstName: "Petro",
+    surname: "Jansen van Noordwyk",
+    familyGroup: "Jansen van Noordwyk",
+    mainContact: true
+},
+{
+    id: 5,
+    firstName: "Benja",
+    surname: "Jansen van Noordwyk",
+    familyGroup: "Jansen van Noordwyk",
+    mainContact: false
+},
+{
+    id: 6,
+    firstName: "Elziné",
+    surname: "Jansen van Noordwyk",
+    familyGroup: "Jansen van Noordwyk",
+    mainContact: false
+},
 
     // Continue adding guests here...
 ];
