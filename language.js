@@ -490,3 +490,14 @@ if (new Date() > rsvpDeadline) {
         "RSVP's is nou gesluit.";
 
 }
+
+/* ==========================
+   RSVP Guest Search
+========================== */
+
+const searchInput = document.getElementById("rsvp-name");
+const resultsBox = document.getElementById("guest-search-results");
+
+const guestIdField = document.getElementById("guest-id");
+const familyGroupField = document.getElementById("family-group");
+const mainContactField = document.getElementById("main-contact");
