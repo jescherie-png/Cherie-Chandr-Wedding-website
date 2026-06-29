@@ -96,7 +96,7 @@ const guestList = [
     },
     {
         id: 14,
-        firstName: "Cherise bf",
+        firstName: "Ruan Vosloo",
         surname: "",
         familyGroup: "Nel",
         mainContact: false
