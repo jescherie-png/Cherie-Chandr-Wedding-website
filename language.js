@@ -125,6 +125,9 @@ function setLanguage(language) {
         document.getElementById("rsvp-text").innerHTML =
     "Please respond before 15 March 2027.";
 
+        document.getElementById("rsvp-info").innerHTML =
+    "One RSVP per family or household is required.<br><br>Please search for your first name or surname and select your name from the list.<br><br>If you are not the main contact for your household, please ask the main contact to complete the RSVP on behalf of everyone in your household.";
+        
         document.getElementById("rsvp-name").placeholder =
     "First Name and Surname";
 
