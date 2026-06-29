@@ -373,6 +373,9 @@ function setLanguage(language) {
         document.getElementById("rsvp-text").innerHTML =
     "Bevestig asseblief voor 15 Maart 2027.";
 
+        document.getElementById("rsvp-info").innerHTML =
+    "Een RSVP per gesin of huishouding is voldoende.<br><br>Soek asseblief vir jou voornaam of van en kies jou naam uit die lys.<br><br>Indien jy nie die hoofkontakpersoon vir jou huishouding is nie, vra asseblief dat hulle die RSVP namens julle huishouding voltooi.";
+        
         document.getElementById("rsvp-name").placeholder =
     "Voornaam en Van";
 
