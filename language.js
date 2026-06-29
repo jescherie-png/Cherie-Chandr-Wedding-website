@@ -127,21 +127,21 @@ const guestList = [
         firstName: "Daniel",
         surname: "Mills",
         familyGroup: "Mills",
-        mainContact: true
+        mainContact: false
     },
     {
         id: 19,
         firstName: "Bronwen",
         surname: "Mills",
         familyGroup: "Mills",
-        mainContact: false
+        mainContact: true
     },
     {
         id: 20,
         firstName: "Lesley",
         surname: "Mills",
         familyGroup: "Mills",
-        mainContact: false
+        mainContact: true
     },
 
     // Continue adding guests here...
