@@ -1,3 +1,33 @@
+/* ==========================
+   Wedding Guest List
+========================== */
+
+const guestList = [
+    {
+        id: 1,
+        firstName: "Chenel",
+        surname: "Eybers",
+        familyGroup: "Eybers",
+        mainContact: true
+    },
+    {
+        id: 2,
+        firstName: "Wilma",
+        surname: "Richter",
+        familyGroup: "Richter",
+        mainContact: true
+    },
+    {
+        id: 3,
+        firstName: "Johan",
+        surname: "Richter",
+        familyGroup: "Richter",
+        mainContact: false
+    }
+
+    // Continue adding guests here...
+];
+
 function setLanguage(language) {
 
     if(language === "en") {
