@@ -501,3 +501,16 @@ const resultsBox = document.getElementById("guest-search-results");
 const guestIdField = document.getElementById("guest-id");
 const familyGroupField = document.getElementById("family-group");
 const mainContactField = document.getElementById("main-contact");
+
+searchInput.addEventListener("input", function () {
+
+    const search = searchInput.value.trim().toLowerCase();
+
+    resultsBox.innerHTML = "";
+
+    if (search.length < 2) {
+        resultsBox.style.display = "none";
+        return;
+    }
+
+});
