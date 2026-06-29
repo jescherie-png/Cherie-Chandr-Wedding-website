@@ -120,7 +120,7 @@ const guestList = [
         firstName: "Christine",
         surname: "Alberts",
         familyGroup: "Alberts",
-        mainContact: false
+        mainContact: true
     },
     {
         id: 18,
