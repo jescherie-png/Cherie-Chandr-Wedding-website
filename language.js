@@ -524,4 +524,15 @@ if (matches.length === 0) {
 
 resultsBox.style.display = "block";
 
+    matches.forEach(guest => {
+
+    const result = document.createElement("div");
+
+    result.className = "guest-result";
+
+    result.textContent = `${guest.firstName} ${guest.surname}`;
+
+    resultsBox.appendChild(result);
+
+});
 });
