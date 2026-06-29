@@ -550,3 +550,14 @@ resultsBox.style.display = "block";
 });
 });
 });
+document.getElementById("rsvp-form").addEventListener("submit", function (event) {
+
+    if (mainContactField.value !== "true") {
+
+        event.preventDefault();
+
+        alert("Only the main contact for each family may submit the RSVP.");
+
+    }
+
+});
