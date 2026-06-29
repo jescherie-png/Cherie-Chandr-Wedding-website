@@ -28,42 +28,42 @@ const guestList = [
         id: 4,
         firstName: "Petro",
         surname: "Jansen van Noordwyk",
-        familyGroup: "Jansen van Noordwyk",
+        familyGroup: "Petro Jansen van Noordwyk",
         mainContact: true
     },
     {
         id: 5,
         firstName: "Benja",
         surname: "Jansen van Noordwyk",
-        familyGroup: "Jansen van Noordwyk",
+        familyGroup: "Petro Jansen van Noordwyk",
         mainContact: false
     },
     {
         id: 6,
         firstName: "Elziné",
         surname: "Jansen van Noordwyk",
-        familyGroup: "Jansen van Noordwyk",
+        familyGroup: "Elziné Jansen van Noordwyk",
         mainContact: true
     },
     {
         id: 7,
-        firstName: "Wors",
+        firstName: "Shaun",
         surname: "Smith",
-        familyGroup: "Jansen van Noordwyk",
+        familyGroup: "Elziné Jansen van Noordwyk",
         mainContact: false
     },
     {
         id: 8,
         firstName: "Tyron",
         surname: "Jansen van Noordwyk",
-        familyGroup: "Jansen van Noordwyk",
+        familyGroup: "Tyron Jansen van Noordwyk",
         mainContact: true
     },
     {
         id: 9,
         firstName: "Danielle",
         surname: "Havenga",
-        familyGroup: "Jansen van Noordwyk",
+        familyGroup: "Tyron Jansen van Noordwyk",
         mainContact: false
     },
     {
