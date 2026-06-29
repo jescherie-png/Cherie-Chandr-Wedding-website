@@ -253,37 +253,78 @@ Slegs die hoofkontakpersoon vir elke huishouding kan die RSVP voltooi. Indien jy
     action="https://script.google.com/macros/s/AKfycbyQ8-MbzDusCXunSahG2dAVEZwJmMwHtvnGFtz8xcdlAvwxlERgBPy-0L7gnzGMLfYKSQ/exec"
     method="POST"
     target="hidden_iframe">
+<label id="rsvp-name-label" for="rsvp-name">
+    Voornaam of Van
+</label>
 
-        <input
-            type="text"
-            id="rsvp-name"
-            name="name"
-            placeholder="Voornaam en Van"
-            required>
+<input
+    type="text"
+    id="rsvp-name"
+    name="name"
+    placeholder="Soek vir jou voornaam of van..."
+    autocomplete="off"
+    required>
 
-        <select id="rsvp-attendance" name="attendance">
+<div id="guest-search-results"></div>
 
-            <option id="attend-yes" value="Sal bywoon">
-                Sal bywoon
-            </option>
+<label id="attendance-label" for="rsvp-attendance">
+    Sal jy bywoon?
+</label>
 
-            <option id="attend-no" value="Sal nie bywoon nie">
-                Sal nie bywoon nie
-            </option>
+<select id="rsvp-attendance" name="attendance">
 
-        </select>
+    <option id="attend-yes" value="Yes">
+        Sal bywoon
+    </option>
 
-        <input
-            type="number"
-            id="rsvp-adults"
-            name="adults"
-            placeholder="Aantal volwassenes">
+    <option id="attend-no" value="No">
+        Sal nie bywoon nie
+    </option>
 
-        <input
-            type="number"
-            id="rsvp-children"
-            name="children"
-            placeholder="Aantal kinders">
+</select>
+
+<label id="adults-label" for="rsvp-adults">
+    Aantal volwassenes
+</label>
+
+<input
+    type="number"
+    id="rsvp-adults"
+    name="adults"
+    min="0"
+    placeholder="Aantal volwassenes">
+
+<label id="children-under3-label" for="rsvp-under3">
+    Kinders onder 3
+</label>
+
+<input
+    type="number"
+    id="rsvp-under3"
+    name="children_under3"
+    min="0"
+    placeholder="Kinders onder 3">
+
+<label id="children-3to12-label" for="rsvp-3to12">
+    Kinders 3–12
+</label>
+
+<input
+    type="number"
+    id="rsvp-3to12"
+    name="children_3to12"
+    min="0"
+    placeholder="Kinders 3–12">
+
+<label id="dietary-label" for="rsvp-dietary">
+    Dieetvereistes
+</label>
+
+<textarea
+    id="rsvp-dietary"
+    name="dietary"
+    rows="4"
+    placeholder="Voedselallergieë, vegetaries, ens."></textarea>
 
 <button id="rsvp-button" type="submit">
     Dien RSVP In
