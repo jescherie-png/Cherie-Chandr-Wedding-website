@@ -534,5 +534,19 @@ resultsBox.style.display = "block";
 
     resultsBox.appendChild(result);
 
+    result.addEventListener("click", function () {
+
+    searchInput.value = `${guest.firstName} ${guest.surname}`;
+
+    guestIdField.value = guest.id;
+
+    familyGroupField.value = guest.familyGroup;
+
+    mainContactField.value = guest.mainContact;
+
+    resultsBox.innerHTML = "";
+    resultsBox.style.display = "none";
+
+});
 });
 });
