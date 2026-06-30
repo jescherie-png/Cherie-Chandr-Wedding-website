@@ -377,7 +377,11 @@ const guestList = [
 
 ];
 
+let currentLanguage = "af";
+
 function setLanguage(language) {
+
+   currentLanguage = language;
 
     if(language === "en") {
         document.title = "Cherie & Chandré's Wedding";
