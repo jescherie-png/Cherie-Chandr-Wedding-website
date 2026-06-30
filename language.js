@@ -283,6 +283,88 @@ const guestList = [
         familyGroup: "Hester Smal",
         mainContact: false
     },
+       {
+        id: 41,
+        firstName: "Imke",
+        surname: "Van Wyk",
+        familyGroup: "Imke Van Wyk",
+        mainContact: true
+    },
+    {
+        id: 42,
+        firstName: "Jan",
+        surname: "Van Wyk",
+        familyGroup: "Imke Van Wyk",
+        mainContact: false
+    },
+    {
+        id: 43,
+        firstName: "AJ",
+        surname: "Van Wyk",
+        familyGroup: "Imke Van Wyk",
+        mainContact: false
+    },
+    {
+        id: 44,
+        firstName: "JJ",
+        surname: "Van Wyk",
+        familyGroup: "Imke Van Wyk",
+        mainContact: false
+    },
+    {
+        id: 45,
+        firstName: "Bossie",
+        surname: "Van Wyk",
+        familyGroup: "Bossie Van Wyk",
+        mainContact: true
+    },
+    {
+        id: 46,
+        firstName: "Maritza",
+        surname: "Van Wyk",
+        familyGroup: "Bossie Van Wyk",
+        mainContact: false
+    },
+    {
+        id: 47,
+        firstName: "Regard",
+        surname: "Van Wyk",
+        familyGroup: "Bossie Van Wyk",
+        mainContact: false
+    },
+    {
+        id: 48,
+        firstName: "David Snr",
+        surname: "Grobbelaar",
+        familyGroup: "David Grobbelaar Snr",
+        mainContact: true
+    },
+    {
+        id: 49,
+        firstName: "Marie",
+        surname: "Lamont",
+        familyGroup: "David Grobbelaar Snr",
+        mainContact: false
+    },
+    {
+        id: 50,
+        firstName: "Charlene",
+        surname: "Richter",
+        familyGroup: "Charlene Richter",
+        mainContact: true
+    },
+    {
+        id: 51,
+        firstName: "Hendri",
+        surname: "Richter",
+        familyGroup: "Charlene Richter",
+        mainContact: false
+    },
+    {
+        id: 52,
+        firstName: "Tharina",
+        surname: "De Goede",
+        familyGroup: "
 
     // Continue adding guests here...
 ];
