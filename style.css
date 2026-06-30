@@ -325,3 +325,24 @@ button:hover,
         background-position: center top;
     }
 }
+#family-members {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f9f5ff;
+    border: 1px solid #d8c6ef;
+    border-radius: 10px;
+}
+
+#family-members h4 {
+    margin-top: 0;
+    color: #5b2c83;
+}
+
+.family-member {
+    padding: 8px 0;
+    border-bottom: 1px solid #e5dff2;
+}
+
+.family-member:last-child {
+    border-bottom: none;
+}
