@@ -587,6 +587,9 @@ function setLanguage(language) {
 
         document.getElementById("rsvp-closed").innerHTML =
     "RSVPs are now closed.";
+
+       document.getElementById("gallery-button").innerHTML =
+"Photo & Video Uploads Open on 5 June 2027";
     }
     
     if(language === "af") {
@@ -832,6 +835,9 @@ function setLanguage(language) {
 
         document.getElementById("rsvp-closed").innerHTML =
     "RSVP's is nou gesluit.";
+       
+       document.getElementById("gallery-button").innerHTML =
+"Foto- en Video-oplaaie open op 5 Junie 2027";
 }
 }
 
