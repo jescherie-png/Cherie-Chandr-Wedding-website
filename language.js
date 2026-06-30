@@ -483,9 +483,6 @@ function setLanguage(language) {
         
         document.getElementById("dresscode-note").innerHTML =
     "We kindly ask guests not to wear white, red, or purple, as these colours are reserved for the bridal party and our parents.";
-
-        document.getElementById("dresscode-note").innerHTML =
-    "We kindly ask guests not to wear white, red, or purple, as these colours are reserved for the bride, groom, bridal party, and parents.";
         
         document.getElementById("gifts-title").innerHTML =
     "Gifts";
