@@ -364,9 +364,17 @@ const guestList = [
         id: 52,
         firstName: "Tharina",
         surname: "De Goede",
-        familyGroup: "
+        familyGroup: "Tharina De Goede",
+        mainContact: true
+    },
+    {
+        id: 53,
+        firstName: "Jaco",
+        surname: "De Goede",
+        familyGroup: "Tharina De Goede",
+        mainContact: false
+    }
 
-    // Continue adding guests here...
 ];
 
 function setLanguage(language) {
