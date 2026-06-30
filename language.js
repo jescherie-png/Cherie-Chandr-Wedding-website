@@ -127,14 +127,14 @@ const guestList = [
         firstName: "Bronwen",
         surname: "Mills",
         familyGroup: "Bronwen Mills",
-        mainContact: false
+        mainContact: true
     },
     {
         id: 19,
         firstName: "Daniel",
         surname: "Mills",
         familyGroup: "Bronwen Mills",
-        mainContact: true
+        mainContact: false
     },
     {
         id: 20,
