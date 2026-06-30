@@ -14,14 +14,14 @@ const guestList = [
         id: 2,
         firstName: "Wilma",
         surname: "Richter",
-        familyGroup: "Richter",
+        familyGroup: "Wilma Richter",
         mainContact: true
     },
     {
         id: 3,
         firstName: "Johan",
         surname: "Richter",
-        familyGroup: "Richter",
+        familyGroup: "Wilma Richter",
         mainContact: false
     },
     {
@@ -96,8 +96,8 @@ const guestList = [
     },
     {
         id: 14,
-        firstName: "Ruan Vosloo",
-        surname: "",
+        firstName: "Ruan",
+        surname: "Vosloo",
         familyGroup: "Nel",
         mainContact: false
     },
@@ -105,42 +105,42 @@ const guestList = [
         id: 15,
         firstName: "Anne",
         surname: "Alberts",
-        familyGroup: "Alberts",
+        familyGroup: "Anne Alberts",
         mainContact: true
     },
     {
         id: 16,
         firstName: "Chris",
         surname: "Alberts",
-        familyGroup: "Alberts",
+        familyGroup: "Anne Alberts",
         mainContact: false
     },
     {
         id: 17,
         firstName: "Christine",
         surname: "Alberts",
-        familyGroup: "Alberts",
+        familyGroup: "Christine Alberts",
         mainContact: true
     },
     {
         id: 18,
-        firstName: "Daniel",
+        firstName: "Bronwen",
         surname: "Mills",
-        familyGroup: "Mills",
+        familyGroup: "Bronwen Mills",
         mainContact: false
     },
     {
         id: 19,
-        firstName: "Bronwen",
+        firstName: "Daniel",
         surname: "Mills",
-        familyGroup: "Mills",
+        familyGroup: "Bronwen Mills",
         mainContact: true
     },
     {
         id: 20,
         firstName: "Lesley",
         surname: "Mills",
-        familyGroup: "Mills",
+        familyGroup: "Lesley Mills",
         mainContact: true
     },
 
