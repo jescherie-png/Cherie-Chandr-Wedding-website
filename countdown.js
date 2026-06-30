@@ -11,3 +11,7 @@ setInterval(function() {
         "💜 Nog " + days + " dae tot ons troue 💜";
 
 }, 1000);
+
+function openGallery() {
+    window.open("YOUR_UPLOAD_LINK", "_blank");
+}
