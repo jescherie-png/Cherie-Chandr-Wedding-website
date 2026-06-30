@@ -917,6 +917,24 @@ resultsBox.style.display = "block";
 
     mainContactField.value = guest.mainContact;
 
+       const familyMembers = guestList.filter(
+    member => member.familyGroup === guest.familyGroup
+);
+
+const familyBox = document.getElementById("family-members");
+
+familyBox.innerHTML = "<h4>Your Household</h4>";
+
+familyMembers.forEach(member => {
+
+    familyBox.innerHTML += `
+        <div class="family-member">
+            ${member.firstName} ${member.surname}
+        </div>
+    `;
+
+});
+       
     resultsBox.innerHTML = "";
     resultsBox.style.display = "none";
 
