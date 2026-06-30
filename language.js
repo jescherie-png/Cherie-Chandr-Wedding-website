@@ -693,9 +693,6 @@ function setLanguage(language) {
         document.getElementById("dresscode-note").innerHTML =
     "Ons vra vriendelik dat gaste nie wit, rooi of pers dra nie, aangesien hierdie kleure vir die bruidsparty en ons ouers gereserveer is.";
 
-        document.getElementById("dresscode-note").innerHTML =
-    "Ons vra vriendelik dat gaste nie wit, rooi of pers dra nie, aangesien hierdie kleure vir die bruid, bruidegom, bruidsparty en ouers gereserveer is.";
-        
         document.getElementById("gifts-title").innerHTML =
     "Geskenke";
 
