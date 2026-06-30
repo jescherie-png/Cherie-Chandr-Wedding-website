@@ -7,7 +7,7 @@ const guestList = [
         id: 1,
         firstName: "Chenel",
         surname: "Eybers",
-        familyGroup: "Eybers",
+        familyGroup: "Chenel Eybers",
         mainContact: true
     },
     {
@@ -70,35 +70,35 @@ const guestList = [
         id: 10,
         firstName: "Chantell",
         surname: "Strydom",
-        familyGroup: "Strydom",
+        familyGroup: "Chantell Strydom",
         mainContact: true
     },
     {
         id: 11,
         firstName: "Nickie",
         surname: "Strydom",
-        familyGroup: "Strydom",
+        familyGroup: "Chantell Strydom",
         mainContact: false
     },
     {
         id: 12,
         firstName: "Cherise",
         surname: "Nel",
-        familyGroup: "Nel",
+        familyGroup: "Cherise Nel",
         mainContact: true
     },
     {
         id: 13,
         firstName: "Eduan",
         surname: "Venter",
-        familyGroup: "Nel",
+        familyGroup: "Cherise Nel",
         mainContact: false
     },
     {
         id: 14,
         firstName: "Ruan",
         surname: "Vosloo",
-        familyGroup: "Nel",
+        familyGroup: "Cherise Nel",
         mainContact: false
     },
     {
