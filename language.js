@@ -412,8 +412,7 @@ function setLanguage(language) {
         document.getElementById("faq-title").innerHTML =
             "Frequently Asked Questions";
 
-        document.getElementById("photos-title").innerHTML =
-            "Wedding Photos";
+        document.getElementById("nav-gallery").innerHTML = "Gallery";
 
         document.getElementById("nav-welcome").innerHTML =
             "Welcome";
@@ -621,8 +620,7 @@ function setLanguage(language) {
         document.getElementById("faq-title").innerHTML =
         "Gereelde Vrae";
 
-        document.getElementById("photos-title").innerHTML =
-    "Troufoto’s";
+        document.getElementById("nav-gallery").innerHTML = "Galery";
 
         document.getElementById("nav-welcome").innerHTML =
         "Welkom";
