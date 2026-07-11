@@ -346,6 +346,34 @@ button:hover,
 .family-member:last-child {
     border-bottom: none;
 }
+#adult-rsvp-container {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f9f5ff;
+    border: 1px solid #d8c6ef;
+    border-radius: 10px;
+    display: none;
+}
+
+#adult-rsvp-container h4 {
+    margin-top: 0;
+    color: #5b2c83;
+}
+
+.adult-rsvp {
+    margin-bottom: 15px;
+}
+
+.adult-rsvp label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.adult-options {
+    display: flex;
+    gap: 20px;
+}
 /* ==========================
    Wedding Gallery
 ========================== */
