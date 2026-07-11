@@ -931,7 +931,12 @@ resultsBox.style.display = "block";
 
 const familyBox = document.getElementById("family-members");
 
+const adultContainer = document.getElementById("adult-rsvp-container");
+
 familyBox.innerHTML = "<h4>Your Household</h4>";
+
+adultContainer.style.display = "block";
+adultContainer.innerHTML = "<h4>Volwasse Gaste</h4>";
 
 familyMembers.forEach(member => {
 
