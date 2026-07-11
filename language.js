@@ -846,14 +846,44 @@ function setLanguage(language) {
 }
 
 document.getElementById("rsvp-form").addEventListener("submit", function() {
+const responses = [];
 
-    document.getElementById("rsvp-success").style.display = "none";
+document.querySelectorAll(".adult-rsvp").forEach(adult => {
+
+    const memberName = adult.querySelector("label").textContent.trim();
+
+    const yesRadio = adult.querySelector('input[value="Yes"]');
+
+    responses.push({
+        id: yesRadio.name.replace("adult_", ""),
+        name: memberName,
+        attendance: adult.querySelector('input[type="radio"]:checked').value
+    });
+
+});
+
+document.getElementById("adult-responses").value =
+    JSON.stringify(responses);
+   
+document.getElementById("rsvp-success").style.display = "none";
 
     setTimeout(function() {
 
-        document.getElementById("rsvp-success").style.display = "block";
+document.getElementById("rsvp-success").style.display = "block";
 
-        document.getElementById("rsvp-form").reset();
+document.getElementById("rsvp-form").reset();
+
+document.getElementById("guest-search-results").innerHTML = "";
+document.getElementById("guest-search-results").style.display = "none";
+
+document.getElementById("family-members").innerHTML = "";
+
+document.getElementById("adult-rsvp-container").innerHTML = "";
+document.getElementById("adult-rsvp-container").style.display = "none";
+
+document.getElementById("guest-selected-message").innerHTML = "";
+
+document.getElementById("rsvp-name").focus();
 
     }, 1500);
 
