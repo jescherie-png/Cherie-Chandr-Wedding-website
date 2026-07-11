@@ -947,6 +947,42 @@ familyMembers.forEach(member => {
     `;
 
 });
+
+adultContainer.innerHTML = "<h4>Volwasse Gaste</h4>";
+
+familyMembers.forEach(member => {
+
+    const adultDiv = document.createElement("div");
+    adultDiv.className = "adult-rsvp";
+
+    adultDiv.innerHTML = `
+        <label>${member.firstName} ${member.surname}</label>
+
+        <div class="adult-options">
+
+            <label>
+                <input
+                    type="radio"
+                    name="adult_${member.id}"
+                    value="Yes"
+                    checked>
+                Sal bywoon
+            </label>
+
+            <label>
+                <input
+                    type="radio"
+                    name="adult_${member.id}"
+                    value="No">
+                Sal nie bywoon nie
+            </label>
+
+        </div>
+    `;
+
+    adultContainer.appendChild(adultDiv);
+
+});
        
     resultsBox.innerHTML = "";
     resultsBox.style.display = "none";
