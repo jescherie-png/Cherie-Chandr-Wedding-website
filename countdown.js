@@ -21,26 +21,25 @@ function openGallery() {
 
 const galleryDate = new Date("June 5, 2027 00:00:00").getTime();
 
-function updateGalleryButton() {
+function updateGalleryStatus() {
 
-    const button = document.getElementById("gallery-button");
+    const galleryStatus = document.getElementById("gallery-status");
 
-    if (!button) return;
+    if (!galleryStatus) return;
 
     if (Date.now() >= galleryDate) {
 
-        button.disabled = false;
-        button.innerHTML = "📸 Upload Photos & Videos";
-        button.style.cursor = "pointer";
-        button.style.opacity = "1";
+        galleryStatus.innerHTML =
+            '📸 <strong>Deel julle spesiale oomblikke met ons!</strong><br>' +
+            'Skandeer die QR-kode om julle foto\'s en video\'s met ons te deel. 💜';
 
     } else {
 
-        button.disabled = true;
-        button.style.cursor = "not-allowed";
-        button.style.opacity = "0.8";
+        galleryStatus.innerHTML =
+            '📸 <strong>Deel julle spesiale oomblikke met ons!</strong><br>' +
+            'Foto- en video-oplaaie open op ons troudag.';
 
     }
 }
 
-updateGalleryButton();
+updateGalleryStatus();
