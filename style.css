@@ -101,6 +101,13 @@ section p {
     margin-left: auto;
     margin-right: auto;
 }
+
+#story p {
+    line-height: 1.8;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
 #rsvp {
     background: linear-gradient(
         135deg,
