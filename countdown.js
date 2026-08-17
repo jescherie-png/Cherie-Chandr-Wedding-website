@@ -7,8 +7,17 @@ setInterval(function() {
 
     const days = Math.floor(distance / (1000 * 60 * 60 * 24));
 
+    if (currentLanguage === "en") {
+
+    document.getElementById("countdown").innerHTML =
+        "💜 " + days + " days until our wedding 💜";
+
+} else {
+
     document.getElementById("countdown").innerHTML =
         "💜 Nog " + days + " dae tot ons troue 💜";
+
+    }
 
 }, 1000);
 
